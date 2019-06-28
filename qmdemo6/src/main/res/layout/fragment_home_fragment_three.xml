@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragmentThree">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/okup_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Ok上传"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/retorup_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Retorfit上传"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/threaddown_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="单线程下载"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/okdown_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ok下载"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/my_lbbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="我的广播事件"
+        android:textSize="20dp" />
+
+    <ProgressBar
+        android:id="@+id/my_probar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/fthree_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp" />
+
+
+</LinearLayout>

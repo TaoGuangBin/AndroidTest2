@@ -1,0 +1,2 @@
+include ':app', ':qmdemo2upanddown', ':qmdemo3', ':qmdemo4', ':myvideotext', ':qmdemo7'
+//, ':qmdemo5', ':qmdemo6'
